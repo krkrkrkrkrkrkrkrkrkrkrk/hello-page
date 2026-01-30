@@ -1,8 +1,22 @@
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import CodePreview from "@/components/CodePreview";
+import Pricing from "@/components/Pricing";
+import CTA from "@/components/CTA";
+import Footer from "@/components/Footer";
+
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <h1 className="text-6xl font-medium text-foreground">Olá</h1>
-    </div>
+    <main className="min-h-screen bg-background">
+      <Navbar />
+      <Hero />
+      <Features />
+      <CodePreview />
+      <Pricing />
+      <CTA />
+      <Footer />
+    </main>
   );
 };
 
